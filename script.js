@@ -46,3 +46,54 @@ const game = {
 /**********************************************
  * YOUR CODE BELOW
  **********************************************/
+
+//make our deck of cards
+//loop over the suis
+//loop over the ranks
+//push object to array
+//object contains a suit proprety and a rank property
+//{suit:'harts', rank:2}
+// shufle the cards
+//deal the cards to the players
+//slice method
+deck.slice(0,13)
+//loop method
+for (const player in game.players){
+  for (let i=0;i<13; i++){
+    game.players[players]=deck.shift()
+  }
+}
+//alternet players
+for(let i = 0; i < deck.lenght;i++){
+  game.players['Players 1'].push(game.deck[i])
+  game.players['Players 2'].push(game.deck[++i])
+}
+//playess show their hands
+// create players button
+//create event listener to the parent
+//use button textContent to get player index
+//
+const cards =[]
+const hand = document.getElementById('hand')
+for ( const suit of suits ){
+
+for (const rank of ranks){ 
+  cards.push({ suit,rank
+  })
+}
+ }
+ const shuffled =shuffle(cards)
+ hand.innerHTML =shuffled.map(function(card){
+   return `<div class="card">
+   <div class="number ${card.suit}">${card.rank}</div>
+   <div class="${card.suit}"><img src="images/${card.suit}.png"></div>
+   <div class="number ${card.suit}">${card.rank}</div>
+ </div>`
+ }).join('') 
+
+ 
+
+ 
+
+ 
+
